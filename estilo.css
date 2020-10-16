@@ -1,241 +1,219 @@
-   /* esp a=1; b=0; c=0; esp = 001*/
-   header {
-       grid-area: header;
+/*Cabeceras */
+/* esp a=1; b=0; c=0; esp = 001*/
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size-adjust: 0.5;
+    color: #FFFFFF;
+    letter-spacing: 0.2em;
+    background-color: #373737;
+    text-align: center;
+}
 
-   }
+/* esp a=1; b=0; c=0; esp = 001*/
+h1 {
+    font-size: 4.5em;
+    border-style: hidden;
+    border-radius: 0.5em;
+}
 
+/* esp a=1; b=0; c=0; esp = 001*/
+h2,
+h3,
+h5,
+h6 {
+    border-style: outset;
+}
 
-   /* esp a=1; b=0; c=0; esp = 001*/
-   main {
-       grid-area: contenido;
-       padding: 2em;
-   }
+/* esp a=1; b=0; c=0; esp = 001*/
+h2 {
+    font-size: 3em;
+}
 
-   /* esp a=1; b=0; c=0; esp = 001*/
-   footer {
-       grid-area: footer;
-       padding: 2em;
-   }
+/* esp a=1; b=0; c=0; esp = 001*/
+h3 {
+    font-size: 2em;
+}
 
+/* esp a=1; b=0; c=0; esp = 001*/
+h4 {
+    font-size: 1.5em;
+    text-align: center;
 
+}
 
-   /*Cabeceras */
+/* esp a=1; b=0; c=0; esp = 001*/
+h5 {
+    font-size: 0.50em;
+}
 
-   /* esp a=1; b=0; c=0; esp = 001*/
-   h1,
-   h2,
-   h3,
-   h5,
-   h6 {
-       font-family: "Gill Sans", sans-serif;
-       font-weight: bold;
-       font-size-adjust: 0.5;
-       color: #FFFFFF;
-       letter-spacing: 0.2em;
-       background-color: #373737;
-       text-align: center;
-   }
+/* esp a=1; b=0; c=0; esp = 001*/
+h6 {
+    font-size: 0.25em;
+}
 
-   /* esp a=1; b=0; c=0; esp = 001*/
-   h1 {
-       font-size: 4.5em;
-       border-style: hidden;
-       border-radius: 0.5em;
-   }
+/* Encabezado y pie */
 
-   /* esp a=1; b=0; c=0; esp = 001*/
-   h2,
-   h3,
-   h5,
-   h6 {
-       border-style: outset;
-   }
-
-   /* esp a=1; b=0; c=0; esp = 001*/
-   h2 {
-       font-size: 3em;
-   }
-
-   /* esp a=1; b=0; c=0; esp = 001*/
-   h3 {
-       font-size: 2em;
-   }
-
-   /* esp a=1; b=0; c=0; esp = 001*/
-   h4 {
-       font-size: 1.5em;
-       text-align: center;
-
-   }
-
-   /* esp a=1; b=0; c=0; esp = 001*/
-   h5 {
-       font-size: 0.50em;
-   }
-
-   /* esp a=1; b=0; c=0; esp = 001*/
-   h6 {
-       font-size: 0.25em;
-   }
-
-   /* Encabezado y pie */
-
-   /* esp a=2; b=0; c=0; esp = 002*/
-   header li,
-   footer li {
-       display: inline-block;
-       padding: 0em 7em 0em 7em;
-       font-size: 1em;
-       font-family: "Gill sans", sans-serif;
-   }
+/* esp a=2; b=0; c=0; esp = 002*/
+header li,
+footer li {
+    display: inline-block;
+    padding: 0em 7em 0em 7em;
+    font-size: 1em;
+    font-family: "Gill sans", sans-serif;
+}
 
 
 
-   /* esp a=2; b=0; c=0; esp = 002*/
-   header ul,
-   footer ul {
-       text-align: center;
-       font-weight: bold;
-   }
+/* esp a=2; b=0; c=0; esp = 002*/
+header ul,
+footer ul {
+    text-align: center;
+    font-weight: bold;
+}
 
 
-   /*Enlaces*/
+/*Enlaces*/
 
-   /* esp a=1; b=1; c=0; esp = 011*/
-   a:link {
-       color: #373737;
-       background-color: transparent;
-       text-decoration: inherit;
-   }
+/* esp a=1; b=1; c=0; esp = 011*/
+a:link {
+    color: #373737;
+    background-color: transparent;
+    text-decoration: inherit;
+}
 
-   /* esp a=2; b=1; c=0; esp = 012*/
-   nav a:visited {
-       color: #373737;
-       background-color: transparent;
-   }
+/* esp a=2; b=1; c=0; esp = 012*/
+nav a:visited {
+    color: #373737;
+    background-color: transparent;
+}
 
-   /* esp a=2; b=1; c=0; esp = 012*/
-   footer a:visited {
-       color: black;
-       background-color: transparent;
-   }
+/* esp a=2; b=1; c=0; esp = 012*/
+footer a:visited {
+    color: black;
+    background-color: transparent;
+}
 
 
-   /*listas*/
+/*listas*/
 
-   /* esp a=4; b=0; c=0; esp = 004*/
-   main ul li::first-letter {
-       font-size: 1.5em;
-       font-style: italic;
-   }
+/* esp a=4; b=0; c=0; esp = 004*/
+main ul li::first-letter {
+    font-size: 1.5em;
+    font-style: italic;
+}
 
-   /* e
+/* e
   sp a=3; b=0; c=0; esp = 003*/
-   main ul li {
-       display: inline;
-       font-size: 1.1em;
-       font-family: "Trebuchet MS", sans-serif;
-       color: #373737;
-       background-color: transparent;
-   }
+main ul li {
+    display: inline;
+    font-size: 1.1em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+}
 
-   /* esp a=4; b=0; c=0; esp = 004*/
-   main ul li img {
-       height: 20em;
-       margin-top: 3%;
-       color: transparent;
-       background-color: #373737;
-   }
+/* esp a=4; b=0; c=0; esp = 004*/
+main ul li img {
+    height: 20em;
+    margin-top: 3%;
+    color: transparent;
+    background-color: #373737;
+}
 
-   /*Multimedia*/
+/*Multimedia*/
 
-   /* esp a=2; b=0; c=0; esp = 002*/
-   main video {
-       border: 1em solid #373737;
-       border-radius: 1em;
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       max-width: 100%;
-   }
+/* esp a=2; b=0; c=0; esp = 002*/
+main video {
+    border: 1em solid #373737;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
 
-   /* esp a=2; b=0; c=0; esp = 002*/
-   main img {
-       border: 1em solid #373737;
-       border-radius: 1em;
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width: auto;
-       max-width: 100%;
-   }
-
-
-   /* esp a=2; b=0; c=0; esp = 002*/
-   main audio {
-       border: 1em solid #373737;
-       border-radius: 1em;
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       /* width: auto;*/
-       max-width: 100%;
-   }
+/* esp a=2; b=0; c=0; esp = 002*/
+main img {
+    border: 1em solid #373737;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 100%;
+}
 
 
-   /* esp a=2; b=0; c=0; esp = 002*/
-   main figcaption {
-       font-size: 0.9em;
-       text-align: center;
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width: auto;
-   }
-
-   /*Principal*/
-   /* esp a=1; b=0; c=0; esp = 001*/
-   html {
-       background-image: url("multimedia/terminator1.jpg");
-       background-repeat: repeat;
-       background-color: #C8C9C3;
-       color: transparent;
-   }
-
-   /* esp a=1; b=0; c=0; esp = 001*/
-   body,
-   footer,
-   header {
-       background-color: #C8C9C3;
-       color: black;
-   }
-
-   /* esp a=1; b=0; c=0; esp = 001*/
-   main {
-       background-image: linear-gradient(#C8C9C3, white);
-   }
+/* esp a=2; b=0; c=0; esp = 002*/
+main audio {
+    border: 1em solid #373737;
+    border-radius: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: auto;*/
+    max-width: 100%;
+}
 
 
-   /*Tablas*/
-   /* esp a=1; b=0; c=0; esp = 001*/
-   table {
-       font-family: "Gill Sans", sans-serif;
-       text-align: center;
-       margin: auto;
-       font-size: 1em;
-       width: 100%;
-       max-width: 100%;
-   }
+/* esp a=2; b=0; c=0; esp = 002*/
+main figcaption {
+    font-size: 0.9em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
 
-   /*Parrafos*/
-   /* esp a=1; b=0; c=0; esp = 001*/
-   p {
-       text-align: justify;
-       white-space: normal;
-       font-size: 1em;
-       font-family: "Trebuchet MS", sans-serif;
-       color: #373737;
-       background-color: transparent;
-       margin-left: 0.1em;
-       margin-right: 0.1em;
-   }
+/*Principal*/
+/* esp a=1; b=0; c=0; esp = 001*/
+html {
+    background-image: url("multimedia/terminator1.jpg");
+    background-repeat: repeat;
+    background-color: #C8C9C3;
+    color: transparent;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+body,
+footer,
+header {
+    background-color: #C8C9C3;
+    color: black;
+}
+
+/* esp a=1; b=0; c=0; esp = 001*/
+main {
+    background-image: linear-gradient(#C8C9C3, white);
+}
+
+
+/*Tablas*/
+/* esp a=1; b=0; c=0; esp = 001*/
+table {
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    width: 100%;
+    max-width: 100%;
+}
+
+/*Parrafos*/
+/* esp a=1; b=0; c=0; esp = 001*/
+p {
+    text-align: justify;
+    white-space: normal;
+    font-size: 1em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
