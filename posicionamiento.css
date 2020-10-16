@@ -1,5 +1,5 @@
 /* esp a=1; b=0; c=0; esp = 001*/
-article {
+body {
     display: grid;
     grid-gap: 1em;
     grid-template-areas:

@@ -100,21 +100,22 @@ footer a:visited {
 
 
 /*listas*/
+/* e
+  sp a=3; b=0; c=0; esp = 003*/
+main ul li {
+    display: block;
+    font-size: 1.1em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+
+}
+
 
 /* esp a=4; b=0; c=0; esp = 004*/
 main ul li::first-letter {
     font-size: 1.5em;
     font-style: italic;
-}
-
-/* e
-  sp a=3; b=0; c=0; esp = 003*/
-main ul li {
-    display: inline;
-    font-size: 1.1em;
-    font-family: "Trebuchet MS", sans-serif;
-    color: #373737;
-    background-color: transparent;
 }
 
 /* esp a=4; b=0; c=0; esp = 004*/
