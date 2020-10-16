@@ -62,11 +62,15 @@ h6 {
 header li,
 footer li {
     display: inline-block;
-    padding: 0em 7em 0em 7em;
-    font-size: 1em;
+    padding: 0.5em 10em 0.5em 10em;
+    font-size: 1.5em;
     font-family: "Gill sans", sans-serif;
 }
 
+aside li {
+    display: flex;
+    padding: 1em 0em 1em 0em;
+}
 
 
 /* esp a=2; b=0; c=0; esp = 002*/
@@ -100,8 +104,7 @@ footer a:visited {
 
 
 /*listas*/
-/* e
-  sp a=3; b=0; c=0; esp = 003*/
+/* esp a=3; b=0; c=0; esp = 003*/
 main ul li {
     display: block;
     font-size: 1.1em;
@@ -109,7 +112,20 @@ main ul li {
     color: #373737;
     background-color: transparent;
 
+
 }
+
+/* esp a=3; b=0; c=0; esp = 003*/
+aside ul li {
+    display: block;
+    font-size: 1.1em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #373737;
+    background-color: transparent;
+
+
+}
+
 
 
 /* esp a=4; b=0; c=0; esp = 004*/
